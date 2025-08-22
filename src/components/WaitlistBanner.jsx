@@ -3,7 +3,7 @@ import WaitlistForm from "./WaitlistForm";
 
 function WaitlistBanner({ title, description, image }) {
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20 flex flex-col-reverse md:flex-row lg:items-center lg:justify-between gap-12 lg:gap-16 text-white">
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-10 flex flex-col-reverse md:flex-row lg:items-center lg:justify-between gap-12 lg:gap-16 text-white">
       {/* Left Side */}
       <div className="space-y-6 md:space-y-8 max-w-xl md:max-w-[500px] mx-auto md:mx-0 text-center md:text-left">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight tracking-tight bg-gradient-to-r from-yellow-200 to-yellow-400 bg-clip-text text-transparent">
@@ -24,7 +24,7 @@ function WaitlistBanner({ title, description, image }) {
           <img
             src={image?.src}
             alt={image?.label || "waitlist image"}
-            className="w-full min-w-[400px] object-cover"
+            className="w-full  object-cover"
           />
         </div>
       </div>
