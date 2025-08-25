@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import WaitlistBanner from "../components/WaitlistBanner";
-import exyread_app_img from "../assets/banner2.png";
+import exyread_app_img from "../assets/banner3.png";
 
 function Home() {
   const waitlistImage = {
