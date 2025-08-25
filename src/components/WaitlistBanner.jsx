@@ -20,7 +20,7 @@ function WaitlistBanner({ title, description, image }) {
 
       {/* Right Side (Image) */}
       <div className="flex justify-center md:justify-end w-full">
-        <div className="w-full px-20 md:px-4 flex items-center max-w-md md:max-w-lg lg:max-w-xl rounded-2xl shadow-xl overflow-hidden">
+        <div className="w-full px-10 md:px-2 flex items-center max-w-md md:max-w-lg lg:max-w-xl rounded-2xl shadow-xl overflow-hidden">
           <img
             src={image?.src}
             alt={image?.label || "waitlist image"}
