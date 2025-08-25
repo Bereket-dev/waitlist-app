@@ -4,7 +4,7 @@ import exyread_app_img from "../assets/exyread_app_img.png";
 
 function Home() {
   const waitlistImage = {
-    src: exyread_app_img,
+    src: banner1,
     label: "ExyRead app image",
   };
   const bannerTitle = "Hello, welcome to ExyRead.";
