@@ -9,7 +9,7 @@ function Home() {
   };
   const bannerTitle = "Hello, welcome to ExyRead.";
   const bannerDescription =
-    "Reading with Ai chat, Note taking, progress tracking, organizing files.";
+    "One app for smarter reading, note-taking, and AI-powered learning.";
 
   return (
     <div className="min-h-screen w-screen">
