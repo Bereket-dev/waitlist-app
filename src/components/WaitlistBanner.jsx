@@ -21,13 +21,12 @@ function WaitlistBanner({ title, description, image }) {
       {/* Right Side (Image) */}
       <div className="flex justify-center md:justify-end w-full">
         <div className="w-full flex items-center px-2 md:px-4 lg:px-6 rounded-2xl shadow-xl overflow-hidden">
-  <img
-    src={image?.src}
-    alt={image?.label || "waitlist image"}
-    className="w-full h-auto object-contain"
-  />
-</div>
-
+          <img
+            src={image?.src}
+            alt={image?.label || "waitlist image"}
+            className="w-full h-auto object-contain"
+          />
+        </div>
       </div>
     </section>
   );
