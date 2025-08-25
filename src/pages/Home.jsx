@@ -1,10 +1,10 @@
 import Header from "../components/Header";
 import WaitlistBanner from "../components/WaitlistBanner";
-import exyread_app_img from "../assets/exyread_app_img.png";
+import exyread_app_img from "../assets/banner2.png";
 
 function Home() {
   const waitlistImage = {
-    src: banner2,
+    src: exyread_app_img,
     label: "ExyRead app image",
   };
   const bannerTitle = "Hello, welcome to ExyRead.";
